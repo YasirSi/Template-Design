@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Regular.eot');
+    src: url('../fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/FiraSans-Regular.woff2') format('woff2'), url('../fonts/FiraSans-Regular.woff') format('woff'), url('../fonts/FiraSans-Regular.ttf') format('truetype'), url('../fonts/FiraSans-Regular.svg#FiraSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body,
+* {
+    font-family: 'Fira Sans'!important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Brands" !important;
+}
+
+
+/* Header CSS */
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background: url('../images/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.headtext {
+    margin-top: 70px;
+    margin-left: 70px;
+    position: relative;
+    z-index: 2;
+}
+
+.headpara {
+    margin-left: 70px;
+    position: relative;
+    z-index: 2;
+}
+
+
+/* End Header CSS */
+
+
+/* About Us */
+
+.sliding_div {
+    transform: skewY(-2deg);
+}
+
+.sliding_div>* {
+    transform: skewY(2deg);
+    margin-top: 50px;
+}
+
+.aboutus {
+    background-color: rgb(31, 30, 30);
+}
+
+.about_space {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.about_space .btn {
+    background-color: rgb(31, 30, 30);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(125, 42, 43);
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 95px;
+}
+
+.about_para {
+    color: rgb(92, 91, 91);
+}
+
+
+/* End About Us */
+
+
+/* Info  */
+
+.info .card {
+    margin-top: 70px;
+    box-shadow: rgb(134, 113, 113);
+}
+
+.info .card_no {
+    font-weight: bold;
+    text-align: center;
+}
+
+.info .card-text {
+    text-align: center;
+}
+
+
+/* End Info */
+
+
+/* Services */
+
+.service {
+    background-color: rgb(27, 27, 27);
+}
+
+.head-decoration {
+    color: rgb(245, 243, 243);
+    text-align: center;
+    position: relative;
+    padding-top: 60px;
+}
+
+.head-decoration::after {
+    content: "";
+    position: absolute;
+    bottom: -15%;
+    left: 48%;
+    width: 4vw;
+    border-bottom: 5px solid rgb(224, 58, 60);
+}
+
+.headpara-decoration {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.service .card {
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+}
+
+
+/* End Services */
+
+
+/* Portfolio */
+
+
+/* .menu-items {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+} */
+
+
+/* ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+} */
+
+
+/* .ul-active {
+    background-color: rgb(224, 58, 60);
+    color: rgb(252, 244, 244);
+} */
+
+
+/* li {
+    float: left;
+} */
+
+
+/* li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    text-decoration: none;
+} */
+
+
+/* End Portfolio */
+
+
+/* Pricing */
+
+.pricing {
+    background-color: rgb(27, 27, 27);
+}
+
+.pricing .card {
+    background-color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.pricing .card_red {
+    background-color: rgb(224, 58, 60);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.pricing .btn_red {
+    background-color: rgb(224, 58, 60);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.pricing .btn {
+    background-color: rgb(43, 43, 43);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+
+/* End Pricing */
+
+
+/* Frequently asked */
+
+
+/* End Frequently asked */
+
+
+/* Team */
+
+.team {
+    background-color: rgb(43, 43, 43);
+}
+
+.team_text {
+    color: rgb(180, 173, 181);
+}
+
+.team .card {
+    margin-bottom: 50px;
+}
+
+
+/* End Team */
+
+
+/* Contact */
+
+.contact .contact_symbol {
+    color: rgb(224, 58, 60);
+    text-align: center;
+}
+
+.contact .card_no {
+    color: rgb(119, 119, 119);
+    text-align: center;
+}
+
+.contact .card-text {
+    text-align: center;
+}
+
+
+/* End Contact */
+
+
+/* Newsletter */
+
+.news {
+    background-color: rgb(27, 27, 27);
+}
+
+.text_line {
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.text_line::after {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 0%;
+    width: 2vw;
+    border-bottom: 2px solid rgb(224, 58, 60);
+}
+
+.text-list {
+    color: rgb(152, 151, 135);
+}
+
+
+/* End Newsletter */
+
+
+/* Footer */
+
+.foot {
+    background-color: rgb(17, 17, 17);
+}
+
+
+/* End Footer */
